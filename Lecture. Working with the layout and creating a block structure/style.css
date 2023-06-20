@@ -20,3 +20,42 @@ a {
     line-height: 23px;
     color: #FFFFFF;
 }
+
+.top {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 113px;
+    color: #6c63ff;
+    mix-blend-mode: normal;
+}
+
+.about {
+    background: rgba(242, 242, 242, 0.34);
+    padding-top: 64px;
+    background-position: 194px;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: #6c63ff;
+    mix-blend-mode: normal;
+}
+
+.about__content {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7d7987;
+    mix-blend-mode: normal;
+}
