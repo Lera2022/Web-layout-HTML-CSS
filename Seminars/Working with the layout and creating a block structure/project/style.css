@@ -94,3 +94,45 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 362px);
+    gap: 30px;
+    justify-content: center;
+    padding-top: 264px;
+    padding-bottom: 243px;
+}
+
+.item {
+    border-radius: 10px;
+    background: #132035;
+    padding: 30px;
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+}
+
+.item_big {
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: 60px;
+}
+
+.heading {
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    opacity: 0.699999988079071;
+}
+
+.item__text {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: center;
+    opacity: 0.699999988079071;
+}
