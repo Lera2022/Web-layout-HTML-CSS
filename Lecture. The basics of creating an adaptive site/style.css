@@ -1,8 +1,25 @@
-.item {
+.header {
     /* width: 1200px; */
     /* width: 75%; */
     /* height: 150px; */
     max-width: 1200px;
     min-height: 150px;
     border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    /* max-width: 250px;
+    min-width: 250px; */
+    /* width: 250px; */
+    width: 400px;
+    /* min-height: 250px; */
+    height: 250px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+    overflow: scroll;
 }
