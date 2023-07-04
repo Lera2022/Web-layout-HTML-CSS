@@ -1,25 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* body {
+    width: 1200px;
+} */
+
 .header {
     /* width: 1200px; */
     /* width: 75%; */
     /* height: 150px; */
     max-width: 1200px;
-    min-height: 150px;
+    /* min-height: 150px; */
+    /* min-height: 100%; */
+    /* min-height: 100vh; */
     border: 1px solid black;
 }
 
 .content {
     display: flex;
     justify-content: center;
+    background-color: #ccc;
+    flex-wrap: wrap;
 }
 
 .item {
     /* max-width: 250px;
     min-width: 250px; */
     /* width: 250px; */
-    width: 400px;
+    /* width: 450px; */
     /* min-height: 250px; */
-    height: 250px;
+    /* height: 250px; */
+    height: 50vh;
+    /* width: 33.333333%; */
+    width: 33vw;
     border: 1px solid black;
     /* overflow: hidden; */
     overflow: scroll;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+    /* Стили для планшета */
+    h1 {
+        font-size: 24px;
+    }
+    .item {
+        /* background-color: orange; */
+        width: 50vh;
+        height: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* стили для мобилки */
+    h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .item {
+        width: 100vw;
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        text-decoration: underline;
+    }
 }
