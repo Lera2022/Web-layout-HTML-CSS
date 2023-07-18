@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+li:first-of-type a {
+    text-decoration: underline;
+}
+
+li:last-of-type a {
+    font-weight: bold;
+}
+
+li:nth-of-type(3) a {
+    background-color: orange;
+}
